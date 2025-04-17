@@ -1,0 +1,16 @@
+[Bb]in/
+[Oo]bj/
+
+appsettings*.json
+!appsettings.json.example
+
+*.user
+*.suo
+*.userprefs
+
+.vs/
+.vscode/
+.nuget/
+packages/
+[Dd]ebug/
+[Rr]elease/
