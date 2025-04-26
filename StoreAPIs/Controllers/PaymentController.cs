@@ -37,7 +37,7 @@ namespace Store.APIs.Controllers
         public async Task<IActionResult> Index()
         {
             var json = await new StreamReader(HttpContext.Request.Body).ReadToEndAsync();
-            const string endpointSecret = "whsec_3cb3156d1705f662fb6f485025980d2d4383860c6cc16d663b218a85259a6568";
+            const string endpointSecret = "";
 
             try
             {
